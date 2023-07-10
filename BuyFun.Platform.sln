@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{809A2F06-0130-4B1D-836C-C2C36250664A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyFun.WebApi", "src\BuyFun.WebApi\BuyFun.WebApi.csproj", "{84ED4C52-41AB-4312-ADB2-7061A2532EC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84ED4C52-41AB-4312-ADB2-7061A2532EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84ED4C52-41AB-4312-ADB2-7061A2532EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84ED4C52-41AB-4312-ADB2-7061A2532EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84ED4C52-41AB-4312-ADB2-7061A2532EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84ED4C52-41AB-4312-ADB2-7061A2532EC5} = {809A2F06-0130-4B1D-836C-C2C36250664A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30D32B7A-D27E-4436-B28E-577325EF55C3}
+	EndGlobalSection
+EndGlobal
