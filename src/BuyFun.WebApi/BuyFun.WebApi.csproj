@@ -11,4 +11,15 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Filters\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="Middlewares\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuyFun.Service\BuyFun.Service\BuyFun.Service.csproj" />
+  </ItemGroup>
+
 </Project>

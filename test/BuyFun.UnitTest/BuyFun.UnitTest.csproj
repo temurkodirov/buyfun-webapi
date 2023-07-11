@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\BuyFun.WebApi\BuyFun.WebApi.csproj" />
+  </ItemGroup>
+
 </Project>

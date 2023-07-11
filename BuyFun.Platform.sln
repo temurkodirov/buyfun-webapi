@@ -7,6 +7,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{809A2F06-013
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyFun.WebApi", "src\BuyFun.WebApi\BuyFun.WebApi.csproj", "{84ED4C52-41AB-4312-ADB2-7061A2532EC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyFun.Domain", "src\BuyFun.Domain\BuyFun.Domain.csproj", "{72594FD4-49EA-4EBB-80A3-5354D8A0E276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyFun.DataAccess", "src\BuyFun.DataAccess\BuyFun.DataAccess\BuyFun.DataAccess.csproj", "{ADA0DA78-B71A-4395-AC38-6D38B43ABC28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CBBD41E3-E1ED-4641-AD33-F43AED1F326C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyFun.Service", "src\BuyFun.Service\BuyFun.Service\BuyFun.Service.csproj", "{49858E5F-404E-49FF-B51D-8E178B2E5805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyFun.UnitTest", "test\BuyFun.UnitTest\BuyFun.UnitTest.csproj", "{96E73940-915A-4860-BCFE-A0929EF1240E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +27,32 @@ Global
 		{84ED4C52-41AB-4312-ADB2-7061A2532EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84ED4C52-41AB-4312-ADB2-7061A2532EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84ED4C52-41AB-4312-ADB2-7061A2532EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72594FD4-49EA-4EBB-80A3-5354D8A0E276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72594FD4-49EA-4EBB-80A3-5354D8A0E276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72594FD4-49EA-4EBB-80A3-5354D8A0E276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72594FD4-49EA-4EBB-80A3-5354D8A0E276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA0DA78-B71A-4395-AC38-6D38B43ABC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA0DA78-B71A-4395-AC38-6D38B43ABC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA0DA78-B71A-4395-AC38-6D38B43ABC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA0DA78-B71A-4395-AC38-6D38B43ABC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49858E5F-404E-49FF-B51D-8E178B2E5805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49858E5F-404E-49FF-B51D-8E178B2E5805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49858E5F-404E-49FF-B51D-8E178B2E5805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49858E5F-404E-49FF-B51D-8E178B2E5805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E73940-915A-4860-BCFE-A0929EF1240E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E73940-915A-4860-BCFE-A0929EF1240E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E73940-915A-4860-BCFE-A0929EF1240E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E73940-915A-4860-BCFE-A0929EF1240E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{84ED4C52-41AB-4312-ADB2-7061A2532EC5} = {809A2F06-0130-4B1D-836C-C2C36250664A}
+		{72594FD4-49EA-4EBB-80A3-5354D8A0E276} = {809A2F06-0130-4B1D-836C-C2C36250664A}
+		{ADA0DA78-B71A-4395-AC38-6D38B43ABC28} = {809A2F06-0130-4B1D-836C-C2C36250664A}
+		{49858E5F-404E-49FF-B51D-8E178B2E5805} = {809A2F06-0130-4B1D-836C-C2C36250664A}
+		{96E73940-915A-4860-BCFE-A0929EF1240E} = {CBBD41E3-E1ED-4641-AD33-F43AED1F326C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30D32B7A-D27E-4436-B28E-577325EF55C3}
