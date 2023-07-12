@@ -1,6 +1,6 @@
 ﻿namespace BuyFun.Domain.Entities;
 
-public class BaseEntity
+public abstract class BaseEntity
 {
-    long Id { get; set; }
+    public long Id { get; set; }
 }
