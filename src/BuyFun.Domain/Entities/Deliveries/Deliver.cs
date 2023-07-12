@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BuyFun.Domain.Entities.Deliveries
 {
-    public class Delivery:Auditable
+    public class Deliver:Auditable
     {
         [MaxLength(13)]
         public string PhoneNumber { get; set; } = string.Empty;
