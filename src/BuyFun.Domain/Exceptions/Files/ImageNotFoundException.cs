@@ -1,8 +1,8 @@
 ﻿namespace BuyFun.Domain.Exceptions.Files;
 
-public class ImageNotFounException:NotFoundException
+public class ImageNotFoundException:NotFoundException
 {
-    public ImageNotFounException()
+    public ImageNotFoundException()
     {
         this.TitleMessage = "Image not Found";
     }
