@@ -51,10 +51,7 @@ public class CategoryService : ICategoryService
         return dbResult > 0;
     }
 
-    public Task<long> GetAllAsync()
-    {
-        throw new NotImplementedException();
-    }
+
 
     public async Task<IList<Category>> GetAllAsync(PaginationParams @params)
     {
@@ -105,7 +102,7 @@ public class CategoryService : ICategoryService
         if (category is null) throw new CategoryNotFoundException();
 
         // parse new items to category
-        category.Name = dto.Name;
+        category.Name = dto.Name is null ? category.Name: dto.Name;
         category.Description = dto.Description;
 
         if (dto.Image is not null)

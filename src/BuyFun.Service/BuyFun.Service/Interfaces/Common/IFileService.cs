@@ -11,6 +11,6 @@ public interface IFileService
     //returns sub path of this avatar
     public Task<string> UploadAvatarAsync(IFormFile avatar);
 
-    public Task<string> DeleteAvatarAsync(string subpath);
+    public Task<bool> DeleteAvatarAsync(string subpath);
 
 }

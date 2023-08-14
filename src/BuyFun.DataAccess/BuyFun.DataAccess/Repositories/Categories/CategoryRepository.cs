@@ -73,7 +73,7 @@ public class CategoryRepository : BaseRepository, ICategoryRepository
         {
             await _connection.OpenAsync();
             string query = $"SELECT *  FROM categories order by id desc " +
-                $"offset {@params.GetSkipCount()} limit {@params.PageSize}";
+                $"offset {@params.GetSkipCount()} limit {@params.PageSize} ;";
             var result = (await _connection.QueryAsync<Category>(query)).ToList();
             return result;
         }

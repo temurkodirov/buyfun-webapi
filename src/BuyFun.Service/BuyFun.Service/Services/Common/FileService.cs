@@ -15,11 +15,11 @@ public class FileService : IFileService
     {
         ROOTPATH = env.WebRootPath;
     }
-    public Task<string> DeleteAvatarAsync(string subpath)
+
+    Task<bool> IFileService.DeleteAvatarAsync(string subpath)
     {
         throw new NotImplementedException();
     }
-
     public async Task<bool> DeleteImageAsync(string subpath)
     {
         string path = Path.Combine(ROOTPATH, subpath);
@@ -51,4 +51,6 @@ public class FileService : IFileService
 
         return subPath;
     }
+
+    
 }

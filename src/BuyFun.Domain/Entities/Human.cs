@@ -9,8 +9,6 @@ public class Human:Auditable
     
     [MaxLength(50)]
     public string LastName { get; set; } = string.Empty;
-    
-
 
     [MaxLength(9)]
     public string PassportSeriaNumber { get; set; } = string.Empty;
